@@ -43,11 +43,17 @@ Box Plot
 plot(VitC~Cult,data=veggy)
 ```
 
-The median in cultivation method 39 is about 50, while the median in cultivation method 52 is about 10 higher. The lower and upper quartile values in c39 are also lower than c52.
+The median in cultivation method 39 is about 50, while the median in cultivation method 52 is about 10 higher. The lower and upper quartile values in c39 are also lower than c52. This means that based on the data so far, the vitamin C content is, on average, lower in cultivation method 39. 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+Numerical Chart
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The median in c39 is 51, while the mean is 51.5. The median in c52 is 64.5, and the mean is 64.4. Since mean measures averages, and the two means are different, the vitamin C content is proven to have different averages. It seems that cultivation method 52 produces more vitamin C content. 
 
 ## Inferential Results
 
