@@ -68,3 +68,5 @@ Based on the t-test, we can infer that the t value is 6.3909. The t value is the
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+The inferential results prove that the experiment is valid due to its high degree of freedom. The inferential results also prove a large difference between the values of vitamin C content in different cultivation methods. Whether that difference is impacted from method, is up to debate. There could be an outlying cause. But it is for certain that the values are different. In conclusion, I reject the null hypothesis.
+
