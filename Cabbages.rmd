@@ -58,7 +58,12 @@ The median in c39 is 51, while the mean is 51.5. The median in c52 is 64.5, and 
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+T-Test Results
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
 
+Based on the t-test, we can infer that the t value is 6.3909. The t value is the ratio of difference between the means in both cultivation levels. Since the ratio is is less than -2, the means are proven to be very different. The p-value is 0.00000003405. The p value represents the possibility of getting a sample that proves the null hypothesis to be true. Since the possibility is so small, I reject the null hypothesis. Our degree of freedom is fairly high at 56.376, so this validates our experiment. The larger the sample and the stronger the data, the better. Which is what these three values demonstrate. 
 
 # Discussion and Conclusion
 
