@@ -27,6 +27,7 @@ $H_A$: There is a difference in the average vitamin C content between cultivatio
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+To explain the vitamin C content, numerical, based on cultivation method, categorical, I will do a numerical categorical analysis.
 
 # Results
 
